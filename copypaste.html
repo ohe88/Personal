@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bod1{
+            display : inline-block;
+            padding: 20px 10px 0px 310px;
+        }
+        .bod{
+            width : 800px;
+            display : inline-block;
+            padding: 20px 10px 0px 310px;
+        }
+        .bod3{
+            padding: 20px 10px 0px 310px;
+        }
+        .bod2{
+            display : inline-block;
+        }
+        .image {
+            width: 800px;
+            height: 500px;
+            border-radius: 10px;
+        }
+​
+        .wrap {
+            margin: 10px auto;
+            width: 800px;
+        }
+      
+    </style>
+       <script>
+        function order() {
+            alert('주문이 완료되었습니다.');
+        }
+    </script>
+</head>
+​
+<body>
+    <div class="wrap">
+        <img class="image"
+            src="https://post-phinf.pstatic.net/MjAyMDAyMjVfMjYw/MDAxNTgyNTk1NjgyNTU5.2aH3VPlq78dFlqwUpKqR3AnC90h_qMe-eXlU7Xo9Xuwg.Uk1ksryKHEJB6rFcKj7G-BUjtbLjtOQuBt7fi868VDog.JPEG/14535_90479_5053.jpg?type=w1200">
+    </div>
+    <div class="bod1">
+    <h2>상품제목</h2>
+    </div>
+     <div class="bod2">
+    가격 : 200,000,000원 / 개<br>
+    </div>
+    <p class="bod">카레라 S는 수평대향 6기동 3.0리터 엔진은 장착한 독일 포르쉐사의 스포츠카이다. 정지상태에서 100km/h까지 도달하는 시간은 3.7초이며 최고시속은 308km/h이다.</p>
+    <div class="bod"><h2>주문하기</h2></div>
+    <div class="bod3">
+        주문자 성함 : <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+    </div>
+    <div class="bod3">
+        수량 : <select class="form-control form-control-lg">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+    </div>
+    <div class="bod3">
+        주소 : <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+    </div>
+    <div class="bod3">
+        전화번호 : <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+    </div>
+    <div class="wrap">
+        <a onclick = "order()" class="btn btn-primary" href="#" role="button">주문하기</a>
+    </div>
+</body>
+​
+</html>
